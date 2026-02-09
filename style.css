@@ -17,7 +17,7 @@ body{
     background-color: linear-gradient(135deg, lab(69.69% 15.86 -19.13) 0%, #2575fc 100%);
     border-radius: 5px;
     display: flex;
-    text-align: center;
+    justify-content: center;
 
 }
 .nav-menu{
@@ -47,4 +47,11 @@ body{
 
 .hero-body{
     padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.hero-body2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
